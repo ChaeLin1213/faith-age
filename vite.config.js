@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   // 👇 저장소 이름으로 교체하세요!
-  base: "/faith-age-survey/",
+  base: "/faith-age/",
   test: {
     globals: true,
     environment: "jsdom",
